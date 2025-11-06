@@ -7,6 +7,18 @@ return {
 		"nvim-tree/nvim-web-devicons",
 	},
 	config = function()
+		require("neo-tree").setup({
+			filesystem = {
+				filtered_items = {
+					visible = true,
+					hide_dotfiles = false,
+					hide_gitignored = false,
+					hide_by_name = {},
+					never_show = {},
+				},
+			},
+		})
+
 		vim.keymap.set("n", "<C-n>", function()
 			local manager = require("neo-tree.sources.manager")
 			local fs_open = manager.get_state("filesystem")
@@ -50,4 +62,3 @@ return {
 		})
 	end,
 }
-

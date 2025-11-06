@@ -21,6 +21,8 @@ return {
 						return {}
 					end,
 				}),
+
+				null_ls.builtins.diagnostics.eslint_d
 			},
 		})
 
