@@ -1,0 +1,1 @@
+/home/pandora/git_proj/config/.bash_aliases
