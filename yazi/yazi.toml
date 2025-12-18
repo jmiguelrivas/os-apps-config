@@ -1,0 +1,30 @@
+[core]
+# Default starting directory
+start_dir = "~"
+
+[mgr]
+# Show hidden files by default
+show_hidden = true
+ratio = [ 2, 4, 3 ]
+
+# Number of lines for previews
+preview_lines = 20
+
+[preview]
+# Enable image previews
+image_preview = true
+
+# Use ffmpeg for video previews
+video_preview = true
+
+[keybindings]
+# Map 'q' to quit
+quit = "q"
+
+# Map 'h' to go up a directory
+up_dir = "h"
+
+[plugins]
+# Enable fuzzy finder plugin by default
+fuzzy_finder = true
+

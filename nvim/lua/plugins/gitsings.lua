@@ -10,8 +10,8 @@ return {
 				topdelete    = { text = "‾" },
 				changedelete = { text = "~" },
 			},
-			signcolumn = true,        -- show git icons in the gutter
-			numhl = false,            -- or true to highlight line numbers
+			signcolumn = true,   -- show git icons in the gutter
+			numhl = false,       -- or true to highlight line numbers
 			current_line_blame = true, -- show inline blame text
 			current_line_blame_opts = {
 				delay = 500,
